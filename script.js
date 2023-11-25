@@ -1,11 +1,4 @@
-const url = 'http://glitchtech.top:8/connect?username=me';
-fetch(url)
-.then((response) => {
+var log = [1,2,3,4,5]
+for(i=0;i<log.length;i++) {
   
-})
-.then((data) => {
-  console.log(data)
-})
-.catch(function(error) {
-  console.log(error);
-});
+}
